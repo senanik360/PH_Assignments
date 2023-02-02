@@ -1,0 +1,309 @@
+/* Banner section */
+.header{
+ 
+}
+.header .banner{
+    max-width: 100%;
+    height: auto;
+    
+}
+.header .banner .banner-title{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    border: 1px solid none;
+    font-size: 65px;
+    font-weight: 800;
+    text-align: right;
+
+    list-style: none;
+}
+.header .banner .paragraph{
+
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 830px;
+    top: 468px;
+    padding: 50px ;
+    border: 1px solid none;
+    text-align: right;
+    font-size: 16px;
+}
+.paragraph ul{
+    margin: auto;
+    list-style: none;
+}
+.header button{
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 1225px;
+    top: 598px;
+    text-align: center;
+    color: white ;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+}
+
+/* content */
+.content ul {
+    list-style: none;
+    text-align: left;
+    
+  }
+  
+.content li:before {
+    content: '✓ ';
+    color: rgb(0, 255, 72);
+    text-align: left;
+  }
+
+.content{
+    display: flex;
+    width: 1600px;
+    border: 1px solid none;
+    text-align: left;
+
+  }
+.content_text{
+   
+    border: 1px solid none;
+    padding: 370px 322px 214px 87px;
+    font-weight: 400;
+    font-size: 16px;
+
+  }
+.content_header_text{
+    font-weight: 700;
+font-size: 40px;
+}
+.image_content
+{
+    padding: 130px 87px 130px 206px;
+}
+
+/* Plans */
+
+.main-body-first
+  {
+    display: flex;
+  }
+  .main-plan
+  {
+    text-align: center;
+    font-weight: 100px;
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+.plans-container
+  {
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .plan-title{
+    font-weight: 700px;
+    font-size: 30px;
+    text-align: center;
+}
+.plan-description{
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #757575;
+        margin-bottom: 20px;
+        text-align: center;
+}
+.plan-image{
+    align-items: center;
+    padding-left:29%;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 300px;
+width: 1140px;
+left: 230px;
+border-radius: 8px;
+
+  }
+  .pic-text1 {
+    font-weight: 700;
+font-size: 40px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    border: 1px solid none;
+    padding-top: 53px;
+    padding-left:203px ;
+  }
+  .pic-text2 {
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    top: 110px;
+    left: 16px;
+    border: 1px solid none;
+    padding-left:203px ;
+
+  }
+  
+  .container .call-btn {
+    position: absolute;
+    top: 250px;
+    left: 296px;
+    border: 1px solid none;
+    padding-left:203px ;
+   
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: orangered;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+
+.watch{
+    width: 1600px;
+height: 300px;
+position: relative;
+top: 0;
+left: 0;
+
+
+}
+.grad{
+    width: 1600px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;  
+}
+
+.footer{
+
+    background-color:#151414 ;
+    width: 1600px ;
+    height: 577px;
+    border: 1px solid none;
+    
+}
+.footer-title{
+    display: flex;
+}
+.footer1-title{
+    top: 130px;
+    bottom: 243px;
+    right: 229px;
+    left: 1046px;
+}
+
+
+.footer-text1{
+    font-weight: 700;
+    font-size: 45px;
+    width: 148px;
+    height: 53px;
+    padding:50px 0px 0px 203px ;
+    
+    text-align: left;
+    color: white;
+    list-style: none;
+   
+}
+.footer-text2{
+    font-weight: 600;
+font-size: 25px;
+
+padding-left: 800px;
+padding-top: 50px;
+
+display: right;
+
+    color: white;
+   
+}
+
+.footer-para{
+    color: white;
+    font-weight: 400;
+font-size: 16px;
+width: 485px;
+height: 78px;
+left: 230px;
+top: 2851.26px;
+
+}
+.footer-all-para{
+    
+    padding-left:203px ;
+
+}
+.t{
+    width: 146px;
+    height: 21px;
+    left: 1067px;
+    top: 2863.26px;
+    padding: 22px 41px 22px 22px;
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ccc;
+
+}
+.s{
+    border: 2px solid none;
+    padding: 100px 0px 0px 0px;
+
+}
+.sub3{
+    border: 2px solid none;
+    padding: 10px 00px 10px 1000px;
+
+}
+.footer-icon{
+
+    display: flex;
+    width: 10px;
+    height: 20px;
+    padding: 0px;
+    border: 1px solid none;
+    text-align: left;
+    color: white;
+    list-style: none;
+    
+}
+.btn-primary
+{
+    border-radius: 5px;
+    height: 64px;
+    
+
+    font-weight: 600;
+    font-size: 20px;
+    color: orangered;
+    background-color: white;
+    padding: 20px 25px;
+    border:0;
+
+}
